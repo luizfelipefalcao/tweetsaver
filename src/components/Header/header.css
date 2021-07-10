@@ -1,0 +1,9 @@
+.header h2 {
+    width: 100%;
+    font-family: 'Ubuntu', sans-serif;
+    color: #1da1f2;
+    font-size: 1.8em;
+    padding: 10px 0px;
+    margin-bottom: 30px;
+    border-bottom: 2px solid rgba(3, 3, 3, .5);
+}
