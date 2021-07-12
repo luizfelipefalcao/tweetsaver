@@ -1,0 +1,51 @@
+.tweet-source-card {
+    height: max-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(51, 51, 51, .5);
+}
+
+.tweet-source-avatar, .tweet-source-date {
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tweet-source-date {
+    width: 30%;
+}
+
+.tweet-source-avatar i {
+    color: rgba(51, 51, 51, .7);
+}
+
+.tweet-source-description {
+    width:55%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0px;
+}
+
+.tweet-source-name {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.tweet-source-account {
+    margin-left: 5px;
+    font-size: .8em;
+    color: 'blue'
+}
+
+.tweet-source-date span {
+    font-size: .8em;
+}
+
+.tweet-source-loading {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
