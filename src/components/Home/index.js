@@ -69,7 +69,7 @@ export default function Home() {
                             </Board>
                         )}
                     </div>
-                    <div className='tweet-drag'>
+                    <div className='tweet-dragger'>
                         <BsArrowRight size='2em' />
                         <span>Drag tweets to save</span>
                     </div>

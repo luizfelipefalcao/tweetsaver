@@ -23,6 +23,10 @@ main {
     height: 100%;
 }
 
+.tweet-draged {
+    margin-top: 13px;
+}
+
 .tweet-source-searcher {
     display: flex;
     flex-direction: row;
@@ -50,7 +54,7 @@ main {
     border: 2px solid rgba(51, 51, 51, .9);
 }
 
-.tweet-drag {
+.tweet-dragger {
     padding: 10px;
     height: max-content;
     width: 10%;
@@ -59,7 +63,7 @@ main {
     align-items: center;
 }
 
-.tweet-drag span {
+.tweet-dragger span {
     text-align: center;
 }
 
@@ -84,5 +88,9 @@ main {
     .tweet-source, .tweet-draged {
         width: 100%;
         height: max-content;
+    }
+    .tweet-dragger{
+        width: 70%;
+        margin: 20px 0;
     }
 }
